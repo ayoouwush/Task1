@@ -7,7 +7,7 @@ public class DBConnection {
 
     private static final String URL = "jdbc:mysql://localhost:3306/reservation_system";
     private static final String USER = "root";
-    private static final String PASSWORD = "1234";
+    private static final String PASSWORD = "YOUR_PASSWORD_HERE";
 
     public static Connection getConnection() {
         try {
